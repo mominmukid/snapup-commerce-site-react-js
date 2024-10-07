@@ -8,11 +8,11 @@ import "slick-carousel/slick/slick-theme.css";
 const HeaderSlider = () => {
   let settings = {
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     arrows: false,
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1
   };

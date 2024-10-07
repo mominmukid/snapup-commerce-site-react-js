@@ -14,7 +14,7 @@ const SearchPage = () => {
   const searchProductsStatus = useSelector(getSearchProductsStatus);
 
   useEffect(() => {
-    dispatch(clearSearch());
+    // dispatch(clearSearch());
     dispatch(fetchAsyncSearchProduct(searchTerm));
   }, [searchTerm]);
 

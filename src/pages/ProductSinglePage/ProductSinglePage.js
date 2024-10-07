@@ -116,7 +116,7 @@ const ProductSinglePage = () => {
                   <div className='brand'>
                     <span className='text-orange fw-5'>Category:</span>
                     <span className='mx-1 text-capitalize'>
-                      {product?.category ? product.category.replace("-", " ") : ""}
+                      {/* {product?.category ? product.category.replace("-", " ") : ""} */}
                     </span>
                   </div>
                 </div>

@@ -16,6 +16,7 @@ function App() {
       <Provider store = {store}>
         <BrowserRouter>
           <Header />
+          
           <Sidebar />
 
           <Routes>
